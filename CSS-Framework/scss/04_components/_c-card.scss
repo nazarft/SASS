@@ -1,0 +1,28 @@
+.c-card {
+    --card-color: var(--color-black-9);
+    --card-background-color: var(--color-black-1);
+    --card-font-family: var(--font-arial);
+    --card-width: var(--width-56);
+    --card-border-radius: var(--border-radius-full);
+
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    color: var(--card-color);
+    background-color: var(--card-background-color);
+    font-family: var(--card-font-family);
+
+
+    &__img {
+        border-radius: var(--card-border-radius);
+        width: var(--card-width);
+    }
+
+    &--style {
+        &-white {
+            --card-color: var(--color-black-2);
+            --card-background-color: var(--color-black-9);
+        }
+
+    }
+}

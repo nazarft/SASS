@@ -1,0 +1,7 @@
+.g--max-height {
+    @each $key, $value in $max-height {
+        &-#{$key} {
+            max-height: var(--max-height-#{$key});
+        }
+    }
+}

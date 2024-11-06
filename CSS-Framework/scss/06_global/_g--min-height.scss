@@ -1,0 +1,7 @@
+.g--min-height {
+    @each $key, $value in $min-height {
+        &-#{$key} {
+            min-height: var(--min-height-#{$key});
+        }
+    }
+}

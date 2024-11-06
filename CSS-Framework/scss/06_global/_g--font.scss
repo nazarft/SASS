@@ -1,0 +1,7 @@
+.g--font {
+    @each $key, $value in $fonts {
+        &-#{$key} {
+            font-family: var(--font-family-#{$key});
+        }
+    }
+}

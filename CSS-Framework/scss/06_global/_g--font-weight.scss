@@ -1,0 +1,7 @@
+.g--font-weight {
+    @each $key, $value in $font-weight {
+        &-#{$key} {
+            font-weight: var(--font-weight-#{$key});
+        }
+    }
+}

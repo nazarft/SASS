@@ -1,0 +1,7 @@
+.g--line-height {
+    @each $key, $value in $line-height {
+        &-#{$key} {
+            line-height: var(--line-height-#{$key});
+        }
+    }
+}

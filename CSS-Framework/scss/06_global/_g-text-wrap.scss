@@ -1,0 +1,7 @@
+.g--text-wrap {
+    @each $key, $value in $text-wrap {
+        &-#{$key} {
+            white-space: var(--text-wrap-#{$key});
+        }
+    }
+}

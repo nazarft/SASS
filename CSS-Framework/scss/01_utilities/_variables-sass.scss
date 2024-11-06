@@ -1,0 +1,310 @@
+$colors: (
+    "principal": (#7c2d12, #9a3412, #c2410c, #ea580c, #f97316, #fb923c, #fdba74, #fed7aa, #ffedd5),
+    "alternative": (#312e81, #3730a3, #4338ca, #4f46e5, #6366f1, #818cf8, #a5b4fc, #c7d2fe, #e0e7ff),
+    "red": (#811D1D, #981B1B, #BA1C1C, #DC2828, #EF4343, #F87272, #FCA6A6, #FEC8C8, #FEE1E1),
+    "blue": (#1E3B8A, #1E3FAE, #1D4FD7, #2463EB, #3C83F6, #61A6FA, #91C3FD, #BEDBFE, #DCEBFE),
+    "green": (#064C39, #066046, #047756, #059467, #10B77F, #36D399, #6EE7B7, #A5F3CF, #D1FAE5),
+    "yellow": (#76350F, #91400D, #B35309, #DB7706, #F59F0A, #FBBD23, #FCD44F, #FDE68B, #FEF3C8),
+    "purple": (#4D1D95, #5A21B5, #6B26D9, #7C3BED, #895AF6, #A689FA, #C3B4FD, #DED7FE, #EBE7FE),
+    "pink": (#811842, #9B174C, #BF185D, #DB2979, #EC4699, #F471B5, #F9A9D5, #FBD0E8, #FCE8F4),
+    "grey": (#111827, #1f2937, #374151, #4b5563, #6b7280, #9ca3af, #d1d5db, #e5e7eb, #f3f4f6),
+    "aqua": (#004d40, #00695c, #00796b, #00897b, #009688, #26a69a, #4db6ac, #80cbc4, #b2dfdb),
+    "orange": (#e65100, #ef6c00, #f57c00, #fb8c00, #ff9800, #ffa726, #ffb74d, #ffcc80, #ffe0b2),
+    "lime": (#33691e, #558b2f, #689f38, #7cb342, #8bc34a, #9ccc65, #aed581, #c5e1a5, #e6ee9c),
+    "brown": (#3e2723, #4e342e, #5d4037, #6d4c41, #795548, #8d6e63, #a1887f, #bcaaa4, #d7ccc8),
+    "black": (#000000, #121212, #2e2e2e, #4d4d4d, #7a7a7a, #a3a3a3, #d1d1d1, #e5e5e5, #ffffff)
+);
+
+/*Spacing*/
+$padding: (
+    "1": 1px,
+    "2": 2px,
+    "3": 3px,
+    "4": 4px,
+    "5": 5px,
+    "6": 6px,
+    "7": 7px,
+    "8": 8px,
+    "10": 10px,
+    "12": 12px,
+    "14": 14px,
+    "16": 16px,
+    "18": 18px,
+    "20": 20px,
+    "24": 24px,
+    "28": 28px,
+    "32": 32px,
+    "36": 36px,
+    "40": 40px,
+    "48": 48px,
+    "56": 56px,
+    "64": 64px,
+);
+$margin: (
+    "n1": -1px,
+    "n2": -2px,
+    "n3": -3px,
+    "n4": -4px,
+    "n5": -5px,
+    "n6": -6px,
+    "n7": -7px,
+    "n8": -8px,
+    "n10": -10px,
+    "n12": -12px,
+    "n14": -14px,
+    "n16": -16px,
+    "n18": -18px,
+    "n20": -20px,
+    "n24": -24px,
+    "n28": -28px,
+    "n32": -32px,
+    "n36": -36px,
+    "n40": -40px,
+    "n48": -48px,
+    "n56": -56px,
+    "n64": -64px,
+    "n68": -68px,
+    "n72": -72px,
+    "n80": -80px,
+    "n96": -96px,
+    "n112": -112px,
+    "1": 1px,
+    "2": 2px,
+    "3": 3px,
+    "4": 4px,
+    "5": 5px,
+    "6": 6px,
+    "7": 7px,
+    "8": 8px,
+    "10": 10px,
+    "12": 12px,
+    "14": 14px,
+    "16": 16px,
+    "18": 18px,
+    "20": 20px,
+    "24": 24px,
+    "28": 28px,
+    "32": 32px,
+    "36": 36px,
+    "40": 40px,
+    "48": 48px,
+    "56": 56px,
+    "64": 64px,
+    "auto": auto
+);
+/*Sizing*/
+$height: (
+    "1": 4px,
+    "2": 8px,
+    "3": 12px,
+    "4": 16px,
+    "5": 20px,
+    "6": 24px,
+    "7": 28px,
+    "8": 32px,
+    "10": 40px,
+    "11": 44px,
+    "12": 48px,
+    "14": 56px,
+    "16": 64px,
+    "18": 72px,
+    "20": 80px,
+    "24": 96px,
+    "28": 112px,
+    "32": 128px,
+    "36": 144px,
+    "40": 160px,
+    "44": 176px,
+    "48": 192px,
+    "52": 208px,
+    "56": 224px,
+    "60": 240px,
+    "64": 256px,
+    "72": 288px,
+    "80": 320px,
+    "96": 384px,
+    "112": 448px,
+    "128": 512px,
+    "144": 576px,
+    "160": 640px,
+    "176": 704px,
+    "192": 768px,
+    "208": 832px,
+    "224": 896px,
+    "auto": auto,
+    "5pc": 5%,
+    "10pc": 10%,
+    "15pc": 15%,
+    "20pc": 20%,
+    "25pc": 25%,
+    "30pc": 30%,
+    "35pc": 35%,
+    "40pc": 40%,
+    "45pc": 45%,
+    "50pc": 50%,
+    "55pc": 55%,
+    "60pc": 60%,
+    "65pc": 65%,
+    "70pc": 70%,
+    "75pc": 75%,
+    "80pc": 80%,
+    "85pc": 85%,
+    "90pc": 90%,
+    "95pc": 95%,
+    "full": 100%
+);
+$min-height: $height;
+$width: $height;
+$min-width: (
+    "0": 0px,
+    "1": 4px,
+    "2": 8px,
+    "3": 12px,
+    "4": 16px,
+    "5": 20px,
+    "6": 24px,
+    "7": 28px,
+    "8": 32px,
+    "10": 40px,
+    "11": 44px,
+    "12": 48px,
+    "14": 56px,
+    "16": 64px,
+    "18": 72px,
+    "20": 80px,
+    "24": 96px,
+    "28": 112px,
+    "32": 128px,
+    "36": 144px,
+    "40": 160px,
+    "44": 176px,
+    "48": 192px,
+    "52": 208px,
+    "56": 224px,
+    "60": 240px,
+    "64": 256px,
+    "72": 288px,
+    "80": 320px,
+    "96": 384px,
+    "full": 100%
+);
+$max-width: $min-width;
+$max-height: $min-height;
+/*Typography*/
+
+$font-size: (
+    "xs": 12px,
+    "sm": 14px,
+    "": 16px,
+    "lg": 18px,
+    "xl": 20px,
+    "2xl": 24px,
+    "3xl": 30px,
+    "4xl": 36px,
+    "5xl": 48px,
+);
+$fonts: (
+    "arial" : "'Arial, sans-serif'",
+    "verdana" : "'Verdana, sans-serif'",
+    "tahoma" : "'Tahoma, sans-serif'",
+    "trebuchet" : "'Trebuchet MS, sans-serif'",
+    "timesNewRoman" : "'Times New Roman, serif'",
+    "georgia" : "'Georgia, serif'",
+    "garamond" : "'Garamond, serif'",
+    "courier" : "'Courier New, monospace'",
+    "brushScript" : "'Brush Script MT, cursive'"
+);
+$font-weight: (
+    "thin": 100,
+    "extralight": 200,
+    "light": 300,
+    "normal": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700,
+    "extrabold": 800,
+    "black": 900
+);
+
+$letter-spacing: (
+    "tighter": -0.05em,
+    "tight": -0.025em,
+    "normal": 0,
+    "wide": 0.025em,
+    "wider": 0.05em,
+    "widest": 0.1em
+);
+
+$line-height: (
+    "3": 12px,
+    "4": 16px,
+    "5": 20px,
+    "6": 24px,
+    "7": 28px,
+    "8": 32px,
+    "9": 36px,
+    "10": 40px,
+    "11": 44px,
+    "12": 48px,
+    "none": 1,
+    "tight": 1.25,
+    "snug": 1.375,
+    "normal": 1.5,
+    "relaxed": 1.625,
+    "loose": 2
+);
+$text-align: (
+    "left": left,
+    "center": center,
+    "right": right,
+    "justify": justify,
+    "start": start,
+    "end": end
+);
+$text-transform: (
+    "uppercase": uppercase,
+    "lowercase": lowercase,
+    "capitalize": capitalize,
+    "normal": none
+);
+$text-decoration: (
+    "underline": underline,
+    "line-through": line-through,
+    "overline": overline,
+    "none": none
+);
+$text-wrap: (
+    "wrap": wrap,
+    "nowrap": nowrap,
+    "balance": balance,
+
+);
+// $text-decoration-color{
+// Esto es un global}
+$border-radius: (
+    "none": 0,
+    "sm": 2px,
+    "md": 6px,
+    "lg": 8px,
+    "xl": 12px,
+    "2xl": 16px,
+    "3xl": 24px,
+    "full": 9999px
+);
+$border-width: (
+    "0": 0px,
+    "1": 1px,
+    "2": 2px,
+    "4": 4px,
+    "8": 8px
+);
+$border-style: (
+    "solid": solid,
+    "dashed": dashed,
+    "dotted": dotted,
+    "double": double,
+    "none": none
+);
+$background: (
+    "none":none
+);

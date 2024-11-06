@@ -1,0 +1,7 @@
+.g--letter-spacing {
+    @each $key, $value in $letter-spacing {
+        &-#{$key} {
+            letter-spacing: var(--letter-spacing-#{$key});
+        }
+    }
+}

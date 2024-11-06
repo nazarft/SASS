@@ -1,0 +1,7 @@
+.g--max-width {
+    @each $key, $value in $max-width {
+        &-#{$key} {
+            max-width: var(--max-width-#{$key});
+        }
+    }
+}

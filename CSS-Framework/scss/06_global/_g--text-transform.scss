@@ -1,0 +1,7 @@
+.g--text-transofrm {
+    @each $key, $value in $text-transform {
+        &-#{$key} {
+            text-transform: var(--text-transform-#{$key});
+        }
+    }
+}

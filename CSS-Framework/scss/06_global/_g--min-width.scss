@@ -1,0 +1,7 @@
+.g--min-width {
+    @each $key, $value in $min-width {
+        &-#{$key} {
+            min-width: var(--min-width-#{$key});
+        }
+    }
+}
