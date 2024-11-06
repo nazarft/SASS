@@ -7,99 +7,183 @@
     <title>IMDb</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/nav/logo.png" type="image/x-icon">
-
 </head>
 
 <body>
-
-    <nav class="g--padding-vertical-8 g--background-black-white-2 g--width-full">
-        <div class="l-flex l-flex--row l-flex--justify-content-center l-flex--align-items-center">
-            <div class="l-flex__area">
-                <div class="l-flex l-flex--align-items-center l-flex--justify-content-center">
-                    <img class="g--width-16 g--margin-left-28 g--margin-right-64 g--padding-vertical-5 g--margin-left-64"
-                        src="img/nav/logo.png">
-                    <div class="l-flex">
-                        <input
-                            class="g--width-144 g--padding-vertical-7 g--padding-left-16 g--padding-right-48 g--border--radius-md"
-                            type="text" placeholder="Buscar en IMDb">
-                        <img class="g--width-8 g--margin-left-n36" src=" img/nav/lupa.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img class="g--width-18 g--margin-horizontal-10" src="img/nav/logo2.png" alt="">
-            </div>
-            <img class="g--width-1" src="img/nav/separador.png">
-            <div class="l-flex__area">
-                <div class="l-flex l-flex--justify-content-center l-flex--align-items-center">
-                    <div class="g--margin-horizontal-20">
+    <div class="g--background-black-1 ">
+        <div class="l-flex l-flex--column l-flex--align-items-center">
+            <nav class="g--padding-vertical-8 g--background-black-2 g--width-full">
+                <div class="l-flex__area">
+                    <div class="l-flex l-flex--row l-flex--justify-content-center l-flex--align-items-center">
                         <div class="l-flex__area">
-                            <div class=" l-flex l-flex--align-items-center l-flex--justify-content-center">
-                                <img class="g--width-5" src="img/nav/seguimiento.png">
-                                <span class="g--color-black-white-9 g--font-weight-semibold">Lista
-                                    de seguimiento</span>
+                            <div class="l-flex l-flex--align-items-center l-flex--justify-content-center">
+                                <a href="#">
+                                    <img class="g--width-16 g--margin-left-28 g--margin-right-64 g--padding-vertical-5 g--margin-left-64"
+                                        src="img/nav/logo.png">
+                                </a>
+                                <div class="l-flex__area">
+                                    <div class="l-flex">
+                                        <input
+                                            class="g--width-144 g--padding-vertical-7 g--padding-left-16 g--padding-right-48 g--border--radius-md"
+                                            type="text" placeholder="Buscar en IMDb">
+                                        <img class="g--width-8 g--margin-left-n36" src=" img/nav/lupa.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a href="#">
+                                <img class="g--width-18 g--margin-horizontal-10" src="img/nav/logo2.png" alt="">
+                            </a>
+                        </div>
+
+                        <img class="g--width-1" src="img/nav/separador.png">
+
+                        <div class="l-flex__area">
+                            <div class="l-flex l-flex--justify-content-center l-flex--align-items-center">
+                                <div class="g--margin-horizontal-20">
+                                    <div class="l-flex__area">
+                                        <div class=" l-flex l-flex--align-items-center l-flex--justify-content-center">
+                                            <img class="g--width-5" src="img/nav/seguimiento.png">
+                                            <a class="g--text-decoration-none " href="#"><span
+                                                    class="g--color-black-9 g--font-weight-semibold">Lista
+                                                    de seguimiento</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a class="g--text-decoration-none" href="#"><span
+                                            class="g--color-black-9 g--font-weight-semibold g--margin-horizontal-20">Iniciar
+                                            sesión</span></a>
+                                </div>
+                                <div>
+                                    <a class="g--text-decoration-none" href="#">
+                                        <span
+                                            class="g--color-black-9 g--font-weight-semibold g--margin-right-64">ES</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <span class="g--color-black-white-9 g--font-weight-semibold g--margin-horizontal-20">Iniciar
-                            sesión</span>
-                    </div>
-                    <div>
-                        <span class="g--color-black-white-9 g--font-weight-semibold g--margin-right-64">ES</span>
-                    </div>
-
                 </div>
-            </div>
-        </div>
-    </nav>
 
-    <main class="l-flex__area">
-        <div class="g--background-black-white-1">
-            <div class="l-flex">
-                <div class="g--margin-left-56 g--margin-top-10">
-                    <img class="g--width-208" src="img/main/banner.png" alt="">
-                </div>
-                <div class="g--margin-top-10 g--margin-left-28">
-                    <span class="g--color-yellow-6 g--font-size-2xl g--font-weight-semibold">Próximamente</span>
-                    <div class="g--background-black-white-2 g--margin-vertical-20">
-                        <div id="card" class="l-flex__area">
-                            <div class="l-flex">
-                                <div class="g--margin-horizontal-16 g--margin-vertical-20">
-                                    <img class="g--width-20 g--border--radius-md" src="img/main/movie1.png">
-                                </div>
-                                <div class="g--margin-left-10 g--margin-right-64">
-                                    <div class="g--margin-vertical-10">
-                                        <img class="g--width-10" src="img/main/play.png">
+            </nav>
+
+            <main class="l-flex__area">
+                <div class="g--margin-horizontal-64">
+                    <div class="l-flex l-flex--column">
+                        <div class="g--background-black-1">
+                            <div class="l-flex__area">
+                                <div class="l-flex">
+                                    <div class="g--margin-top-10">
+                                        <img class="g--width-208" src="img/main/banner.png" alt="">
                                     </div>
-                                    <div>
-                                        <span class="g--color-black-white-9">2025 Awards Season Preview</span>
-                                    </div>
-                                    <div class="g--margin-vertical-10">
-                                        <span class="g--color-black-white-6 g--font-size-sm">Let´s take a Look at 3 Key
-                                            Races</span>
-                                    </div>
-                                    <div>
-                                        <div class="l-flex__area">
-                                            <div class="l-flex l-flex--justify-content-centert">
-                                                <img class="g--width-3 g--margin-horizontal-4"
-                                                    src="img/main/finger.png">
-                                                <span class="g--color-black-white-6 g--font-size-sm">148</span>
-                                                <img class="g--width-3 g--margin-horizontal-4" src="img/main/like.png">
-                                                <span class="g--color-black-white-6 g--font-size-sm">53</span>
+                                    <div class="g--margin-top-10 g--margin-left-28">
+                                        <span
+                                            class="g--color-yellow-6 g--font-size-2xl g--font-weight-semibold">Próximamente</span>
+                                        <div class="g--background-black-2 g--margin-vertical-20">
+                                            <div id="card" class="l-flex__area">
+                                                <div class="l-flex">
+                                                    <div class="g--margin-horizontal-16 g--margin-vertical-20">
+                                                        <img class="g--width-20 g--border--radius-md"
+                                                            src="img/main/movie1.png">
+                                                    </div>
+                                                    <div class="g--margin-left-10 g--margin-right-64">
+                                                        <div class="g--margin-vertical-10">
+                                                            <img class="g--width-10" src="img/main/play.png">
+                                                        </div>
+                                                        <div>
+                                                            <span class="g--color-black-9">2025 Awards Season
+                                                                Preview</span>
+                                                        </div>
+                                                        <div class="g--margin-vertical-10">
+                                                            <span class="g--color-black-6 g--font-size-sm">Let´s take a
+                                                                Look
+                                                                at
+                                                                3
+                                                                Key
+                                                                Races</span>
+                                                        </div>
+                                                        <div>
+                                                            <div class="l-flex__area">
+                                                                <div class="l-flex l-flex--justify-content-centert">
+                                                                    <img class="g--width-3 g--margin-horizontal-4"
+                                                                        src="img/main/finger.png">
+                                                                    <span
+                                                                        class="g--color-black-6 g--font-size-sm">148</span>
+                                                                    <img class="g--width-3 g--margin-horizontal-4"
+                                                                        src="img/main/like.png">
+                                                                    <span
+                                                                        class="g--color-black-6 g--font-size-sm">53</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
 
+                        </div>
+
+                        <section>
+                            <div class="l-flex__area">
+                                <div class="l-flex l-flex--align-items-center">
+                                    <img class="g--width-2 g--height-7 g--margin-right-10" src="img/main/separador.png">
+                                    <h1
+                                        class="g--color-black-9 g--font-size-2xl g--background-black-1 g--margin-vertical-32 g--font-weight-bold">
+                                        Famosos
+                                        más
+                                        populares
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="g--margin-vertical-20">
+                                <div class="l-flex__area">
+                                    <div class="l-flex l-flex--wrap">
+                                        <div class="c-card g--margin-horizontal-10">
+                                            <img class="c-card__img g--margin-vertical-10"
+                                                src="img/main/actores/elpadrino.png">
+                                            <span class="g--margin-vertical-5 g--font-weight-bold">4</span>
+                                            <span class="g--font-weight-bold">Marlon Brando</span>
+                                        </div>
+                                        <div class="c-card g--margin-horizontal-20">
+                                            <img class="c-card__img g--margin-vertical-10"
+                                                src="img/main/actores/bradpitt.png">
+                                            <span class="g--margin-vertical-5 g--font-weight-bold">9</span>
+                                            <span class="g--font-weight-bold">Brad Pitt</span>
+                                        </div>
+                                        <div class="c-card g--margin-horizontal-20">
+                                            <img class="c-card__img g--margin-vertical-10"
+                                                src="img/main/actores/leonardo.png">
+                                            <span class="g--margin-vertical-5 g--font-weight-bold">7</span>
+                                            <span class="g--font-weight-bold">Leonardo Dicaprio</span>
+                                        </div>
+                                        <div class="c-card g--margin-horizontal-20">
+                                            <img class="c-card__img g--margin-vertical-10"
+                                                src="img/main/actores/cilian.png">
+                                            <span class="g--margin-vertical-5 g--font-weight-bold">4</span>
+                                            <span class="g--font-weight-bold">Cilian Murphy</span>
+                                        </div>
+                                        <div class="c-card g--margin-horizontal-20">
+                                            <img class="c-card__img g--margin-vertical-10"
+                                                src="img/main/actores/tomhardy.png">
+                                            <span class="g--margin-vertical-5 g--font-weight-bold">8</span>
+                                            <span class="g--font-weight-bold">Tom Hardy</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-            </div>
+            </main>
         </div>
-    </main>
+    </div>
+
     <script defer src="script.js"></script>
 </body>
 
