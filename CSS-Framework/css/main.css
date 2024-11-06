@@ -775,6 +775,7 @@
   --font-garamond: 'Garamond, serif';
   --font-courier: 'Courier New, monospace';
   --font-brushScript: 'Brush Script MT, cursive';
+  --font-roboto: 'Roboto, sans-serif';
   /* Variables font-weight */
   --font-weight-thin: 100;
   --font-weight-extralight: 200;
@@ -4156,6 +4157,9 @@ table {
 .g--font-brushScript {
   font-family: var(--font-family-brushScript);
 }
+.g--font-roboto {
+  font-family: var(--font-family-roboto);
+}
 
 .g--font-weight-thin {
   font-weight: var(--font-weight-thin);
@@ -5961,7 +5965,7 @@ table {
   --card-border-radius: var(--border-radius-full);
   display: flex;
   flex-direction: column;
-  place-items: center;
+  align-items: center;
   color: var(--card-color);
   background-color: var(--card-background-color);
   font-family: var(--card-font-family);
